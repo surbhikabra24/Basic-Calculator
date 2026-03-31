@@ -1,0 +1,45 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+button:hover{
+    opacity: 1.5;
+}
+
+button{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: gray;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(202, 229, 238);
+}
+
+.display{
+    width: 100%;
+    height: 30px;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(229, 232, 235);
+    color: rgb(75, 75, 75);
+    
+}
+
+.calculator{
+    background-color: lightblue;
+    
+}
